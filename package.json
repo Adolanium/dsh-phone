@@ -1,0 +1,20 @@
+{
+  "name": "dsh-phone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DSH Phone Bridge: the real DeepSeek Harness Desktop UI on an iPhone over Tailscale, with no second Host.",
+  "scripts": {
+    "test": "node --test packages/dsh-plugin-phone-bridge/test",
+    "install-dev": "sh scripts/install-dev.sh",
+    "uninstall-dev": "sh scripts/uninstall-dev.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adolanium/dsh-phone.git"
+  },
+  "license": "MIT",
+  "author": "Adolanium"
+}

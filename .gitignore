@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+*.log
+/tmp/
+coverage/
+.env
+.env.*
+*.mobileprovision
+*.p12
+*.cer
+apps/ios/build/
+apps/ios/build-device/
+apps/ios/DerivedData/
+*.xcuserstate
+xcuserdata/

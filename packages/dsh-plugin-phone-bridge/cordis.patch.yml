@@ -1,0 +1,10 @@
+# dsh-plugin-phone-bridge — bundle declaration.
+#
+# One Host entry. It opens its own HTTP listener on exactly one Tailscale
+# address, reverse-proxies HTTP and WebSocket traffic into the running Host's
+# loopback Web server, and (through package.json's `dsh.client`) contributes the
+# Settings → Phone page. Pairing and the device cookie gate live on the Host
+# side; the browser half only reads the loopback admin routes.
+- insert:
+    - id: phone-bridge
+      name: dsh-plugin-phone-bridge
