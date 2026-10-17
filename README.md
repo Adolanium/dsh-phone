@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banners/01-signal.png" alt="DSH Phone Bridge — Your Harness. In your pocket." width="100%">
+  <img src="docs/banner.png" alt="DSH Phone Bridge — The real Harness, on your phone." width="100%">
 </p>
 
 <h1 align="center">DSH Phone Bridge</h1>
@@ -165,7 +165,7 @@ packages/dsh-plugin-phone-bridge/
   lib/                     Host plugin, proxy, pairing, QR, Settings UI
   test/                    80 node:test cases
 scripts/                   install/uninstall for macOS/Linux and Windows
-docs/banners/              README banner options
+docs/banner.png            README hero
 ```
 
 ## Development
